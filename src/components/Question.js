@@ -21,6 +21,9 @@ export default function Question({}) {
                 onClick={() => {
                     if (query == officialQueryStatement) {
                         if (answer.length) {
+                            if (answer.length > officialQueryStatement.length) {
+                                setAnswer(prev => prev.slice(0, officialQueryStatement.length));  
+                            } 
                             setRenderAnswer(true);
                         } else {
                             const randomResponse = responses[Math.floor(Math.random() * responses.length)];
