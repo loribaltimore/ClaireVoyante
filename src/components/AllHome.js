@@ -12,8 +12,8 @@ export default function AllHome() {
     
   return (
       <div className='w-full block '>
-          <h1 className='text-6xl text-gray-400 p-10'>Claire Voyante</h1>
-            <div className={`${renderAnswer ? "fade-out" : null} space-y-3 mx-auto w-1/2`}>
+          <h1 className=' text-4xl md:text-6xl text-gray-400 p-10'>Claire Voyante</h1>
+            <div className={`${renderAnswer ? "fade-out" : null} space-y-3 mx-auto w-11/12 md:w-3/4 `}>
               <Query />
               <Question />
               <Rules />

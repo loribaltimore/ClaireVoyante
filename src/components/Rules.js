@@ -3,9 +3,9 @@
 export default function Rules() {
 
     return ( 
-        <div className="p-20 text-gray-400">
+        <div className="lg:p-20 text-gray-400">
             <h1 className="border-b text-xl ">Proper Use</h1>
-<ul className="text-center mx-auto  text-md space-y-3  pt-5 list-disc">
+<ul className=" mx-auto text-sm  md:text-md space-y-3  pt-5 list-disc">
             <li>All psychics have what is known as a "Summoning Phrase", or "Summoner".
                 This is a short sentence that evokes the spirit of the psychic. </li>
             <li>Summoning Phrases are familiar experiences that allow a psychic to quickly

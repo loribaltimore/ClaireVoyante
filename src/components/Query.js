@@ -51,7 +51,7 @@ export default function Query({}) {
 
     return (
         <input
-            className='text-black w-full p-5 rounded text-2xl font-extralight'
+            className='text-black w-full p-5 rounded text-lg md:text-2xl font-extralight'
             placeholder='Claire Voyante, I call upon you:'
             value={!setIsQueryEnter ? officialQueryStatement.slice(0, count) : query}
             onChange={(event) => {

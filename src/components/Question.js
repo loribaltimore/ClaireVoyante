@@ -17,7 +17,7 @@ export default function Question({}) {
                 }}
             />
             <button
-                className='bg-blue-500 rounded p-3 block w-1/2 mx-auto'
+                className='bg-blue-500 rounded p-3 block w-1/2 mx-auto hover:scale-105 active:scale-100'
                 onClick={() => {
                     if (query == officialQueryStatement) {
                         if (answer.length) {
